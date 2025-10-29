@@ -1,0 +1,68 @@
+.last-new {
+    display: flex;
+    flex-direction: row;
+        img {
+            box-sizing: border-box;
+            height: 300px;
+            border-radius: 5px;
+            border: 2px dashed #3E3232;
+            padding: 5px 5px 5px 5px;
+        }
+    margin: 0px 80px 0px 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.last-new--text {
+    display: flex;
+    flex-direction: column;
+        h2 {
+            font-family: 'MinecraftTitle', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+}
+
+.last-new--button {
+    max-width: 200px;
+    font-family: 'Minecraft', sans-serif;
+    height: 25px;
+    background-color: #3e32321f;
+    border-radius: 5px;
+    color: #3E3232;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out,
+                background-color 0.3s ease-in-out;
+    margin-left: 10px;
+    padding: 0;
+    content: 'abd';
+    transform: scale(110%);
+    border: 1.5px solid;
+}
+
+.last-new--button:hover {
+    background-color: #3e323214;
+}
+
+.last-new--button:active {
+    transform: scale(100%);
+}
+
+
+.borders {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.border-side {
+    width: 15%;
+    border-bottom: 3px solid #3E3232;
+}
+
+.border-center {
+    display: flex;
+    width: 50%;
+    border-bottom: 3px solid #3E3232;
+}

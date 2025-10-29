@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Minecraft';
+  src: url('./assets/fonts/Minecraft.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MinecraftTitle';
+  src: url('./assets/fonts/MinecraftTitle.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Minecraft', sans-serif;
+  background-color: #F0E5D9;
+  color: #3E3232;
+  margin: 0px 300px 0px 300px;
+  padding: 0;
+  box-shadow: -10px 0 20px #d4c7b946,
+              10px 0 20px #d4c7b946;
+}
+
+body::-webkit-scrollbar { display: none; }

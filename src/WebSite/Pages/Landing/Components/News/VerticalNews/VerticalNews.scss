@@ -1,0 +1,58 @@
+.vertical-news {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 50px 0px 50px;
+    height: 400px;
+    img {
+        height: 150px;
+    }
+    h2 {
+        font-family: 'MinecraftTitle', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+.vertical-news-first {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    border-right: 3px solid #3E3232;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px 0px 0px;
+    text-align: center;
+}
+
+.vertical-news-second {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+}
+
+.vertical-news-third {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    border-left: 3px solid #3E3232;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 20px;
+    text-align: center;
+        z-index: 3;
+}
+
+.borders-2 {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+
+

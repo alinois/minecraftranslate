@@ -1,0 +1,31 @@
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'MinecraftTitle', sans-serif;
+    border-bottom: 3px solid #3E3232;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    align-items: end;
+        span {
+        cursor: pointer;}
+}
+
+.header-update {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    cursor: default;
+}
+
+.header-logo {
+    img {
+    box-sizing: border-box;
+    height: 90px;}
+}
