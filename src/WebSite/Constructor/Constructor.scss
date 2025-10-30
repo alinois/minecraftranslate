@@ -1,0 +1,112 @@
+.constructor {
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        h1 {
+            font-family: 'MinecraftTitle', sans-serif;
+            margin-bottom: 50px;
+        }
+    color: #3E3232;
+}
+
+.constructor-buttons {
+    position: fixed;
+    left: 0;
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color:#3e323225;
+    border-radius: 5px;
+    margin: 25px 0px 0px 20px;
+    padding: 20px 10px 20px 10px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+        button {
+            font-size: medium;
+            width: 150px;
+            border: none;
+            border-bottom: 2px dashed #3E3232;
+            background-color: transparent;
+            font-family: "Minecraft", sans-serif;
+            cursor: pointer;
+            color: #3E3232;
+        }
+        .save {
+            font-family: 'MinecraftTitle', sans-serif;
+            border: none;
+        }
+}
+
+.constructor-input {
+    resize: vertical;
+    word-wrap: break-word;
+    border: 2px dashed #3e323259;
+    background-color: transparent;
+    font-family: 'Minecraft', sans-serif;
+    width: 80%;
+    height: auto;
+    padding: 15px;
+    overflow: hidden;
+    color: #3E3232;
+        .ProseMirror:focus {
+            margin: auto;
+            outline: none;
+        }
+}
+
+.constructor-input:focus {
+    outline: none;
+}
+
+.constructor-input-title {
+    resize: vertical;
+    word-wrap: break-word;
+    border: 2px dashed #3e323259;
+    background-color: transparent;
+    font-family: 'Minecraft', sans-serif;
+    width: 80%;
+    height: auto;
+    padding: 15px;
+    overflow: hidden;
+    color: #3E3232;
+    font-family: 'MinecraftTitle', sans-serif;
+    text-align: center;
+    font-size: large;
+    height: 25px;
+        .ProseMirror:focus {
+            outline: none;
+        }
+}
+
+.constructor-input-title:focus {
+    outline: none;
+}
+
+.constructor-result {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+        img {
+            width: 80%;
+            border: 2px dashed #3e323259;
+            padding: 10px;
+        }
+}
+
+.constructor-button-delete {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: large;
+}
+
+.constructor-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}

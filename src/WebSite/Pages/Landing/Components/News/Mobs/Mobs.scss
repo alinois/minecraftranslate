@@ -3,6 +3,7 @@
     justify-content: space-between;
         img {
             height: 270px;
+            border-radius: 10px 0px 0px 10px;
         }
         h2 {
          font-family: 'MinecraftTitle', sans-serif;
@@ -19,6 +20,7 @@
     padding-left: 50px;
     border-right: 3px solid #3E3232;
     border-bottom: 3px solid #3E3232;
+    justify-content: center;
 }
 
 .mob-first-text {
@@ -26,7 +28,8 @@
     flex-direction: column;
     max-width: 50%;
     border: 2px dashed #3E3232;
-    border-right: none;
+    border-left: none;
+    border-radius: 0px 10px 10px 0px;
     padding: 10px 10px 0px 10px;
 }
 
@@ -37,6 +40,7 @@
     padding-bottom: 35px ;
     padding-right: 50px;
     border-bottom: 3px solid #3E3232;
+    justify-content: center;
 }
 
 .mob-second-text { 
@@ -44,4 +48,7 @@
     flex-direction: column;
     max-width: 50%;
     padding: 10px 10px 0px 10px;
+    border: 2px dashed #3E3232;
+    border-radius: 0px 10px 10px 0px;
+    border-left: none;
 }

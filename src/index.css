@@ -13,10 +13,12 @@
 }
 
 body {
+  width: 1000px;
   font-family: 'Minecraft', sans-serif;
   background-color: #F0E5D9;
   color: #3E3232;
-  margin: 0px 300px 0px 300px;
+  /* margin: 0px 300px 0px 300px; */
+  margin: auto;
   padding: 0;
   box-shadow: -10px 0 20px #d4c7b946,
               10px 0 20px #d4c7b946;

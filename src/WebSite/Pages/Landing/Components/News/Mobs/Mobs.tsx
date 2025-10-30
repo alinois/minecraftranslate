@@ -6,21 +6,22 @@ const Mobs = () => {
     <>
     <div className='mob'>
         <div className='mob-first'>
+            <img src={mob} />
             <div className='mob-first-text'>
                 <h2>моб</h2>
                 <p>ого! это же тот самый невероятно крутой моб, которого никто не просил, а моджанг добавили вопреки желаниям
                     критикующего русского сообщества! невероятно...</p>
             </div>
-            <img src={mob} />
+            
         </div>
 
         <div className='mob-second'>
+            <img src={mob} />
             <div className='mob-second-text'>
                 <h2>моб</h2>
                 <p>ого! это же тот самый невероятно крутой моб, которого никто не просил, а моджанг добавили вопреки желаниям
                     критикующего русского сообщества! невероятно...</p>
             </div>
-            <img src={mob} />
         </div>
     </div>
     </>
